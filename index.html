@@ -1,320 +1,609 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Startups and small businesses do not have the expertise or capacity to handle the complex challenges that come with scaling a business.  We're in the trenches with you the whole way, facing challenges and change head-on.">
-    <meta name="keywords" content="hr, consulting, recruiting, startup, human resources">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Startups and small businesses do not have the expertise or capacity to handle the complex challenges that come with scaling a business.  We're in the trenches with you the whole way, facing challenges and change head-on."
+    />
+    <meta
+      name="keywords"
+      content="hr, consulting, recruiting, startup, human resources"
+    />
 
     <meta property="og:image" content="syhrog.jpg" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://www.startupyourhr.com" />
-    <meta property="og:title" content="Your HR Partner for Startup and Scale" />
-    <meta property="og:description" content="Startups and small businesses do not have the expertise or capacity to handle the complex challenges that come with scaling a business.  We're in the trenches with you the whole way, facing challenges and change head-on." />
+    <meta property="og:title" content="Your Partner for Startup and Scale" />
+    <meta
+      property="og:description"
+      content="Startups and small businesses do not have the expertise or capacity to handle the complex challenges that come with scaling a business.  We're in the trenches with you the whole way, facing challenges and change head-on."
+    />
 
-    <link rel="icon" href="favicon.ico" type="image/x-icon"/>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-    <link rel="preconnect" href="https://fonts.gstatic.com"> 
-    <link href="https://fonts.googleapis.com/css2?family=Marcellus&family=Montserrat+Alternates:wght@100;300;400;600;700;800&family=Nunito:wght@200;300;400;600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Marcellus&family=Montserrat+Alternates:wght@100;300;400;600;700;800&family=Nunito:wght@200;300;400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+      integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
 
     <!-- Heap Analytics -->
     <script type="text/javascript">
-      window.heap=window.heap||[],heap.load=function(e,t){window.heap.appid=e,window.heap.config=t=t||{};var r=document.createElement("script");r.type="text/javascript",r.async=!0,r.src="https://cdn.heapanalytics.com/js/heap-"+e+".js";var a=document.getElementsByTagName("script")[0];a.parentNode.insertBefore(r,a);for(var n=function(e){return function(){heap.push([e].concat(Array.prototype.slice.call(arguments,0)))}},p=["addEventProperties","addUserProperties","clearEventProperties","identify","resetIdentity","removeEventProperty","setEventProperties","track","unsetEventProperty"],o=0;o<p.length;o++)heap[p[o]]=n(p[o])};
+      (window.heap = window.heap || []),
+        (heap.load = function (e, t) {
+          (window.heap.appid = e), (window.heap.config = t = t || {});
+          var r = document.createElement("script");
+          (r.type = "text/javascript"),
+            (r.async = !0),
+            (r.src = "https://cdn.heapanalytics.com/js/heap-" + e + ".js");
+          var a = document.getElementsByTagName("script")[0];
+          a.parentNode.insertBefore(r, a);
+          for (
+            var n = function (e) {
+                return function () {
+                  heap.push(
+                    [e].concat(Array.prototype.slice.call(arguments, 0))
+                  );
+                };
+              },
+              p = [
+                "addEventProperties",
+                "addUserProperties",
+                "clearEventProperties",
+                "identify",
+                "resetIdentity",
+                "removeEventProperty",
+                "setEventProperties",
+                "track",
+                "unsetEventProperty",
+              ],
+              o = 0;
+            o < p.length;
+            o++
+          )
+            heap[p[o]] = n(p[o]);
+        });
       heap.load("3999095774");
     </script>
     <!-- End Heap Analytics -->
-    
+
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-1TGS28EG7R"></script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-1TGS28EG7R"
+    ></script>
     <script>
       window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-      gtag('config', 'G-1TGS28EG7R');
+      gtag("config", "G-1TGS28EG7R");
     </script>
     <!-- End GST - Google Analytics -->
 
     <title>HR Consulting for Entrepreneurs</title>
-</head>
-<body>
-
+  </head>
+  <body>
     <nav class="navbar navbar-dark">
-        <div class="container">
-          <a class="navbar-brand" href="#">
-            <img src="images/Logo-v1-White.png" alt="" width="120" height="120">
-          </a>
-        </div>
-      </nav>
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="images/Logo-v1-White.png" alt="" width="120" height="120" />
+        </a>
+      </div>
+    </nav>
 
     <div class="container">
-        <header class="row">
-            <div id="header-text" class="mt-3">
-                <h1 id="partner-text"><b>Your HR Partner </b></h1>
-                <h1 id="startup-text">for Startup and Scale</h1>
-            </div>
-        </header>
-        <div class="row">
-            <div class="col-lg-6 my-3 mt-md-4 my-lg-5">
-                <img id="katie-img" class="img-fluid" src="images/katie.jpg" alt="">
-            </div>
-            <div class="col-lg-6 mt-2 mt-lg-5">
-                <blockquote id="bq1" class="blockquote p-3">
-                    <p><strong><span id="katie-name">Katie </span></strong> is the CEO and Founder of <strong>Startup Your HR</strong>. For over 10 years, Katie has been a noteworthy leader in the HR space. You may know her from her work as the Founding Liaison of the <strong>Nashville Hacking HR</strong> chapter, but Katie can also be credited with her contributions to <strong>Nashville Entrepreneur Week</strong> and <strong>Middle Tennessee Society for Human Resource Management</strong>.</p> 
-                    <p>She holds an MBA from Union University and has completed doctoral work in human resource management at Capella University. She currently lives in Nashville and when she's not keeping busy with her awesome clients, you can find her playing video games with her family of all boys.</p>
-                </blockquote>
-            </div>
+      <header class="row">
+        <div id="header-text" class="mt-3">
+          <h1 id="partner-text"><b>Your Partner </b></h1>
+          <h1 id="startup-text">for Startup and Scale</h1>
         </div>
-        <div class="row">
-            <div class="col mt-4 mt-lg-0">
-                <h1 class="display-4">What Clients are Saying...</h1>
-            </div>
+      </header>
+      <div class="row">
+        <div class="col-lg-6 my-3 mt-md-4 my-lg-5">
+          <img id="katie-img" class="img-fluid" src="images/katie.jpg" alt="" />
         </div>
-        
-        
-        <div class="row mt-4">
-            <div class="col-lg-3">
-                
-            </div>
-            <div class="col-lg-6 mt-3 mt-lg-4">
-                <figure>
-                    <h3>Proven Efficiency</h3>
-                    <blockquote class="blockquote testimonial">
-                        <p>"It has been an absolute pleasure working with Katie Parker on some of our company’s HR needs. Not only was she able to help us manage and respond to a bevy of qualified candidates, she recommended and implemented new processes that took our overall hiring experience to the next level. On top of that, we were able to extend an offer and onboard our top candidate well before our self-imposed deadline. I’d recommend her services in a second!"</p>
-                    </blockquote>
-                    <figcaption class="blockquote-footer testimonial">
-                        Caroline Schmid - <cite title="Mckeeman Communications is an integrated PR and communications agency.">VP of McKeeman Communications</cite>
-                    </figcaption>
-                </figure>
-            </div>
-            <div class="col-6 col-lg-3 mt-lg-5">
-                <img class="img-fluid test-img" src="images/caroline.png" alt="">
-            </div>
+        <div class="col-lg-6 mt-2 mt-lg-5">
+          <blockquote id="bq1" class="blockquote p-3">
+            <p>
+              <strong><span id="katie-name">Katie </span></strong> is the CEO
+              and Founder of <strong>Startup Your HR</strong>. For over 10
+              years, Katie has been a noteworthy leader in the HR space. You may
+              know her from her work as the Founding Liaison of the
+              <strong>Nashville Hacking HR</strong> chapter, but Katie can also
+              be credited with her contributions to
+              <strong>Nashville Entrepreneur Week</strong> and
+              <strong
+                >Middle Tennessee Society for Human Resource Management</strong
+              >.
+            </p>
+            <p>
+              She holds an MBA from Union University and has completed doctoral
+              work in human resource management at Capella University. She
+              currently lives in Nashville and when she's not keeping busy with
+              her awesome clients, you can find her playing video games with her
+              family of all boys.
+            </p>
+          </blockquote>
         </div>
-        <div class="row">
-            <div id="jon-lg" class="col-6 col-lg-3 mt-lg-5">
-                <img class="img-fluid test-img" src="images/jon.png" alt="">
-            </div>
-            <div class="col-lg-6 mt-4">
-                <figure>
-                    <h3 class="mt-3 mt-lg-0">Guidance and Strategy</h3>
-                    <blockquote class="blockquote testimonial">
-                        <p>“Katie was very instrumental in helping us to define our internal org structure, and was able to guide us through the process of coming up with a hierarchy that fit where we were at and where we were moving. In addition, she was able to help us come up with the relevant roles and promotion tracks necessary to support the new structure in a way that took our existing resources into account.”
-                        </p>
-                    </blockquote>
-                    <figcaption class="blockquote-footer testimonial">
-                        Jon Robinson - <cite title="Provar Testing is a Salesforce-first automated testing solution for enterprises.">Head of North America - Provar Testing</cite>
-                    </figcaption>
-                </figure>
-                <div id="jon-sm" class="col-6 col-lg-3 mt-lg-5">
-                    <img class="img-fluid test-img" src="images/jon.png" alt="">
-                </div>
-                <div class="col-md-3">
-                
-                </div>
-            </div>
+      </div>
+      <div class="row">
+        <div class="col mt-4 mt-lg-0">
+          <h1 class="display-4">What Clients are Saying...</h1>
         </div>
-        <div class="row">
-            <div class="col-lg-3">
-                
-            </div>
-            <div class="col-lg-6 mt-3 mt-lg-4">
-                <figure>
-                    <h3 class="mt-3 mt-lg-0">Success through Culture</h3>
-                    <blockquote class="blockquote testimonial">
-                        <p>“Katie designed every aspect of our internship program and was instrumental to its success. She handled intern selection, onboarding, and the format of the program.  With her help, we hosted 2 cohorts of interns that were diverse and added so much value to our early startup work.”
-                        </p>
-                    </blockquote>
-                    <figcaption class="blockquote-footer testimonial">
-                        Dwayne Gibson - <cite title="Betafits is a modern employee benefits company.">Service Operations Manager - Betafits</cite>
-                    </figcaption>
-                </figure>
-            </div>
-            <div class="col-6 col-lg-3 mt-lg-5">
-                <img class="img-fluid test-img" src="images/dwayne.png" alt="">
-            </div>
+      </div>
+
+      <div class="row mt-4">
+        <div class="col-lg-3"></div>
+        <div class="col-lg-6 mt-3 mt-lg-4">
+          <figure>
+            <h3>Proven Efficiency</h3>
+            <blockquote class="blockquote testimonial">
+              <p>
+                "It has been an absolute pleasure working with Katie Parker on
+                some of our company’s HR needs. Not only was she able to help us
+                manage and respond to a bevy of qualified candidates, she
+                recommended and implemented new processes that took our overall
+                hiring experience to the next level. On top of that, we were
+                able to extend an offer and onboard our top candidate well
+                before our self-imposed deadline. I’d recommend her services in
+                a second!"
+              </p>
+            </blockquote>
+            <figcaption class="blockquote-footer testimonial">
+              Caroline Schmid -
+              <cite
+                title="Mckeeman Communications is an integrated PR and communications agency."
+                >VP of McKeeman Communications</cite
+              >
+            </figcaption>
+          </figure>
         </div>
-        <section class="problem py-5">
-          <h1 class="display-4">The Problems We're Solving...</h1>
-          <div class="row mt-5">
-            <div class="col-lg-4">
-              <div class="problem-card mb-3 mb-lg-0 p-3">
-                <h1 class="display-1"><i class="fas fa-cogs"></i></h1>
-                <p>Startups and small businesses do not have the expertise or capacity to handle the complex challenges that come with scaling a business.</p>
-                <hr>
-                <p><strong>We're in the trenches with you the whole way, facing challenges and change head on.</strong></p>
-              </div>
-            </div>
-            <div class="col-lg-4">
-              <div class="problem-card mb-3 mb-lg-0 p-3">
-                <h1 class="display-1"><i class="fas fa-coins"></i></h1>
-                <p>Bringing HR in-house is expensive and often premature for a fluctuating workload.</p>
-                <hr>
-                <p><strong>With us, you pay for what you need when you need it. We can even adjust our focus with you every month all while keeping your cost a fraction of a salaried HR employee.</strong></p>
-              </div>
-            </div>
-            <div class="col-lg-4">
-              <div class="problem-card mb-3 mb-lg-0 p-3">
-                <h1 class="display-1"><i class="fas fa-users"></i></h1>
-                <p>Guidance on and the implementation of people projects is essential for growing a team sustainably.</p>
-                <hr>
-                <p><strong>We customize services to align with your strategic goals and make recommendations with your culture in mind.</strong></p>
-              </div>
+        <div class="col-6 col-lg-3 mt-lg-5">
+          <img class="img-fluid test-img" src="images/caroline.png" alt="" />
+        </div>
+      </div>
+      <!-- <div class="row">
+        <div id="jon-lg" class="col-6 col-lg-3 mt-lg-5">
+          <img class="img-fluid test-img" src="images/jon.png" alt="" />
+        </div>
+        <div class="col-lg-6 mt-4">
+          <figure>
+            <h3 class="mt-3 mt-lg-0">Guidance and Strategy</h3>
+            <blockquote class="blockquote testimonial">
+              <p>
+                “Katie was very instrumental in helping us to define our
+                internal org structure, and was able to guide us through the
+                process of coming up with a hierarchy that fit where we were at
+                and where we were moving. In addition, she was able to help us
+                come up with the relevant roles and promotion tracks necessary
+                to support the new structure in a way that took our existing
+                resources into account.”
+              </p>
+            </blockquote>
+            <figcaption class="blockquote-footer testimonial">
+              Jon Robinson -
+              <cite
+                title="Provar Testing is a Salesforce-first automated testing solution for enterprises."
+                >Head of North America - Provar Testing</cite
+              >
+            </figcaption>
+          </figure>
+          <div id="jon-sm" class="col-6 col-lg-3 mt-lg-5">
+            <img class="img-fluid test-img" src="images/jon.png" alt="" />
+          </div>
+          <div class="col-md-3"></div>
+        </div>
+      </div> -->
+      <div class="row">
+        <div class="col-6 col-lg-3 mt-lg-5">
+          <img class="img-fluid test-img" src="images/dwayne.png" alt="" />
+        </div>
+        <div class="col-lg-6 mt-3 mt-lg-4">
+          <figure>
+            <h3 class="mt-3 mt-lg-0">Success through Culture</h3>
+            <blockquote class="blockquote testimonial">
+              <p>
+                “Katie designed every aspect of our internship program and was
+                instrumental to its success. She handled intern selection,
+                onboarding, and the format of the program.  With her help, we
+                hosted 2 cohorts of interns that were diverse and added so much
+                value to our early startup work.”
+              </p>
+            </blockquote>
+            <figcaption class="blockquote-footer testimonial">
+              Dwayne Gibson -
+              <cite title="Betafits is a modern employee benefits company."
+                >Service Operations Manager - Betafits</cite
+              >
+            </figcaption>
+          </figure>
+        </div>
+        <div class="col-lg-3"></div>
+      </div>
+      <section class="problem py-5">
+        <h1 class="display-4">The Problems We're Solving...</h1>
+        <div class="row mt-5">
+          <div class="col-lg-4">
+            <div class="problem-card mb-3 mb-lg-0 p-3">
+              <h1 class="display-1"><i class="fas fa-cogs"></i></h1>
+              <p>
+                Startups and small businesses do not have the expertise or
+                capacity to handle the complex challenges that come with scaling
+                a business.
+              </p>
+              <hr />
+              <p>
+                <strong
+                  >We're in the trenches with you the whole way, facing
+                  challenges and change head on.</strong
+                >
+              </p>
             </div>
           </div>
-        </section>
-
-        <section class="plans-section">
-            <div class="row">
-              <div class="col">
-                <div id="plans">
-                  <h1 class="display-4">Plans for Your Team that Give You the Confidence to Scale with Integrity Built into Every Process...</h1>
-                </div>
-              </div>
+          <div class="col-lg-4">
+            <div class="problem-card mb-3 mb-lg-0 p-3">
+              <h1 class="display-1"><i class="fas fa-coins"></i></h1>
+              <p>
+                Bringing HR in-house is expensive and often premature for a
+                fluctuating workload.
+              </p>
+              <hr />
+              <p>
+                <strong
+                  >With us, you pay for what you need when you need it. We can
+                  even adjust our focus with you every month all while keeping
+                  your cost a fraction of a salaried HR employee.</strong
+                >
+              </p>
             </div>
-        </section>
-        
+          </div>
+          <div class="col-lg-4">
+            <div class="problem-card mb-3 mb-lg-0 p-3">
+              <h1 class="display-1"><i class="fas fa-users"></i></h1>
+              <p>
+                Guidance on and the implementation of people projects is
+                essential for growing a team sustainably.
+              </p>
+              <hr />
+              <p>
+                <strong
+                  >We customize services to align with your strategic goals and
+                  make recommendations with your culture in mind.</strong
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="plans-section">
+        <div class="row">
+          <div class="col">
+            <div id="plans">
+              <h1 class="display-4">
+                Plans for Your Team that Give You the Confidence to Scale with
+                Integrity Built into Every Process...
+              </h1>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
 
     <section class="pricing py-5">
-        <div class="container">
-          <div class="row">
-            <!-- MVP Tier -->
-            <div class="col-lg-4">
-              <div class="card mb-3 mb-lg-0">
-                <div class="card-body">
-                  <h5 class="card-title text-muted text-uppercase text-center">MVP</h5>
-                  <h6 class="card-price text-center display-4">$2,000<span class="period">/month</span></h6>
-                  <h5 class="card-title text-muted text-uppercase text-center">CHOOSE 1</h5>
-                  <hr>
-                  <ul class="fa-ul">
-                    <li><span class="fa-li"><i class="fas fa-check"></i></span>Recruiting</li>
-                    <li><span class="fa-li"><i class="fas fa-check"></i></span>Job Descriptions</li>
-                    <li><span class="fa-li"><i class="fas fa-check"></i></span>Process Hacking</li>
-                    <li><span class="fa-li"><i class="fas fa-check"></i></span>Accountability Chart</li>
-                    <li><span class="fa-li"><i class="fas fa-check"></i></span>Employee Onboarding</li>
-                    <li><span class="fa-li"><i class="fas fa-check"></i></span>Employee Matters</li>
-                    <li><span class="fa-li"><i class="fas fa-check"></i></span>Compensation Support</li>
-                    <li><span class="fa-li"><i class="fas fa-check"></i></span>SOP Manual/Handbook</li>
-                    <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Intern Program Launch</li>
-                    <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>People Operations</li>
-                    <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>3 Year Scaling Plan</li>
-                    <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>EOS People Component</li>
-                    <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Training & Development</li>
-                  </ul>
-                  <div class="text-center">
-                    <a href="https://www.surveymonkey.com/r/syhr_plans" class="btn btn-block btn-primary text-uppercase" target="_blank">See if this fits your business!</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- Accel Tier -->
-            <div class="col-lg-4">
-              <div class="card mb-3 mb-lg-0">
-                <div class="card-body">
-                  <h5 class="card-title text-muted text-uppercase text-center">ACCELERATOR</h5>
-                  <h6 class="card-price text-center">$3,500<span class="period">/month</span></h6>
-                  <h5 class="card-title text-muted text-uppercase text-center">CHOOSE 3</h5>
-                  <hr>
-                  <ul class="fa-ul">
-                    <li><span class="fa-li"><i class="fas fa-check"></i></span>Recruiting</li>
-                    <li><span class="fa-li"><i class="fas fa-check"></i></span>Job Descriptions</li>
-                    <li><span class="fa-li"><i class="fas fa-check"></i></span>Process Hacking</li>
-                    <li><span class="fa-li"><i class="fas fa-check"></i></span>Accountability Chart</li>
-                    <li><span class="fa-li"><i class="fas fa-check"></i></span>Employee Onboarding</li>
-                    <li><span class="fa-li"><i class="fas fa-check"></i></span>Employee Matters</li>
-                    <li><span class="fa-li"><i class="fas fa-check"></i></span>Compensation Support</li>
-                    <li><span class="fa-li"><i class="fas fa-check"></i></span>SOP Manual/Handbook</li>
-                    <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Intern Program Launch</li>
-                    <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>People Operations</li>
-                    <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>3 Year Scaling Plan</li>
-                    <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>EOS People Component</li>
-                    <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Training & Development</li>
-                  </ul>
-                  <div class="text-center">
-                    <a href="https://www.surveymonkey.com/r/syhr_plans" class="btn btn-block btn-primary text-uppercase" target="_blank">See if this fits your business!</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- Uni Tier -->
-            <div class="col-lg-4">
-              <div class="card">
-                <div class="card-body">
-                  <h5 class="card-title text-muted text-uppercase text-center">UNICORN</h5>
-                  <h6 class="card-price text-center display-4">$4,500<span class="period">/month</span></h6>
-                  <h5 class="card-title text-muted text-uppercase text-center">UNLIMITED</h5>
-                  <hr>
-                  <ul class="fa-ul">
-                    <li><span class="fa-li"><i class="fas fa-check"></i></span>Recruiting</li>
-                    <li><span class="fa-li"><i class="fas fa-check"></i></span>Job Descriptions</li>
-                    <li><span class="fa-li"><i class="fas fa-check"></i></span>Process Hacking</li>
-                    <li><span class="fa-li"><i class="fas fa-check"></i></span>Accountability Chart</li>
-                    <li><span class="fa-li"><i class="fas fa-check"></i></span>Employee Onboarding</li>
-                    <li><span class="fa-li"><i class="fas fa-check"></i></span>Employee Matters</li>
-                    <li><span class="fa-li"><i class="fas fa-check"></i></span>Compensation Support</li>
-                    <li><span class="fa-li"><i class="fas fa-check"></i></span>SOP Manual/Handbook</li>
-                    <li><span class="fa-li"><i class="fas fa-check"></i></span>Intern Program Launch</li>
-                    <li><span class="fa-li"><i class="fas fa-check"></i></span>People Operations</li>
-                    <li><span class="fa-li"><i class="fas fa-check"></i></span>3 Year Scaling Plan</li>
-                    <li><span class="fa-li"><i class="fas fa-check"></i></span>EOS People Component</li>
-                    <li><span class="fa-li"><i class="fas fa-check"></i></span>Training & Development</li>
-                  </ul>
-                  <div class="text-center">
-                    <a href="https://www.surveymonkey.com/r/syhr_plans" class="btn btn-block btn-primary text-uppercase" target="_blank">See if this fits your business!</a>
-                  </div>
+      <div class="container">
+        <div class="row">
+          <!-- MVP Tier -->
+          <div class="col-lg-4">
+            <div class="card mb-3 mb-lg-0">
+              <div class="card-body">
+                <h5 class="card-title text-muted text-uppercase text-center">
+                  MVP
+                </h5>
+                <h6 class="card-price text-center display-4">
+                  $4,500<span class="period">/month</span>
+                </h6>
+                <h5 class="card-title text-muted text-uppercase text-center">
+                  CHOOSE 1
+                </h5>
+                <hr />
+                <ul class="fa-ul">
+                  <li>
+                    <span class="fa-li"><i class="fas fa-check"></i></span
+                    >Recruiting
+                  </li>
+                  <li>
+                    <span class="fa-li"><i class="fas fa-check"></i></span>Job
+                    Descriptions
+                  </li>
+                  <li>
+                    <span class="fa-li"><i class="fas fa-check"></i></span
+                    >Process Hacking
+                  </li>
+                  <li>
+                    <span class="fa-li"><i class="fas fa-check"></i></span
+                    >Accountability Chart
+                  </li>
+                  <li>
+                    <span class="fa-li"><i class="fas fa-check"></i></span
+                    >Employee Onboarding
+                  </li>
+                  <li>
+                    <span class="fa-li"><i class="fas fa-check"></i></span
+                    >Employee Matters
+                  </li>
+                  <li>
+                    <span class="fa-li"><i class="fas fa-check"></i></span
+                    >Compensation Support
+                  </li>
+                  <li>
+                    <span class="fa-li"><i class="fas fa-check"></i></span>SOP
+                    Manual/Handbook
+                  </li>
+                  <li class="text-muted">
+                    <span class="fa-li"><i class="fas fa-times"></i></span
+                    >Intern Program Launch
+                  </li>
+                  <li class="text-muted">
+                    <span class="fa-li"><i class="fas fa-times"></i></span
+                    >People Operations
+                  </li>
+                  <li class="text-muted">
+                    <span class="fa-li"><i class="fas fa-times"></i></span>3
+                    Year Scaling Plan
+                  </li>
+                  <li class="text-muted">
+                    <span class="fa-li"><i class="fas fa-times"></i></span>EOS
+                    People Component
+                  </li>
+                  <li class="text-muted">
+                    <span class="fa-li"><i class="fas fa-times"></i></span
+                    >Training & Development
+                  </li>
+                </ul>
+                <div class="text-center">
+                  <a
+                    href="https://www.surveymonkey.com/r/syhr_plans"
+                    class="btn btn-block btn-primary text-uppercase"
+                    target="_blank"
+                    >See if this fits your business!</a
+                  >
                 </div>
               </div>
             </div>
           </div>
-          <!-- On Demand Consultation Tier -->
-          <div class="row pt-3 pb-5">
-            <div class="col">
-              <div id="consult-card" class="card">
-                <div class="card-body">
-                  <h5 class="card-title text-muted text-uppercase text-center">On Demand Consultation</h5>
-                  <h6 class="card-price text-center display-4">$150<span class="period">/hour</span></h6>
-                  <!-- <h5 class="card-title text-muted text-uppercase text-center">UNLIMITED</h5> -->
-                  <hr>
-                  
-                    <p><i class="fas fa-check"></i>
-                       1 Hour Advising</p>
-                  <a href="https://calendly.com/katiepsyhr/on-demand-1-hour-consultation" class="btn btn-block btn-info text-uppercase" target="_blank">Schedule Consultation Now!</a>
+          <!-- Accel Tier -->
+          <div class="col-lg-4">
+            <div class="card mb-3 mb-lg-0">
+              <div class="card-body">
+                <h5 class="card-title text-muted text-uppercase text-center">
+                  ACCELERATOR
+                </h5>
+                <h6 class="card-price text-center">
+                  $6,000<span class="period">/month</span>
+                </h6>
+                <h5 class="card-title text-muted text-uppercase text-center">
+                  CHOOSE 3
+                </h5>
+                <hr />
+                <ul class="fa-ul">
+                  <li>
+                    <span class="fa-li"><i class="fas fa-check"></i></span
+                    >Recruiting
+                  </li>
+                  <li>
+                    <span class="fa-li"><i class="fas fa-check"></i></span>Job
+                    Descriptions
+                  </li>
+                  <li>
+                    <span class="fa-li"><i class="fas fa-check"></i></span
+                    >Process Hacking
+                  </li>
+                  <li>
+                    <span class="fa-li"><i class="fas fa-check"></i></span
+                    >Accountability Chart
+                  </li>
+                  <li>
+                    <span class="fa-li"><i class="fas fa-check"></i></span
+                    >Employee Onboarding
+                  </li>
+                  <li>
+                    <span class="fa-li"><i class="fas fa-check"></i></span
+                    >Employee Matters
+                  </li>
+                  <li>
+                    <span class="fa-li"><i class="fas fa-check"></i></span
+                    >Compensation Support
+                  </li>
+                  <li>
+                    <span class="fa-li"><i class="fas fa-check"></i></span>SOP
+                    Manual/Handbook
+                  </li>
+                  <li class="text-muted">
+                    <span class="fa-li"><i class="fas fa-times"></i></span
+                    >Intern Program Launch
+                  </li>
+                  <li class="text-muted">
+                    <span class="fa-li"><i class="fas fa-times"></i></span
+                    >People Operations
+                  </li>
+                  <li class="text-muted">
+                    <span class="fa-li"><i class="fas fa-times"></i></span>3
+                    Year Scaling Plan
+                  </li>
+                  <li class="text-muted">
+                    <span class="fa-li"><i class="fas fa-times"></i></span>EOS
+                    People Component
+                  </li>
+                  <li class="text-muted">
+                    <span class="fa-li"><i class="fas fa-times"></i></span
+                    >Training & Development
+                  </li>
+                </ul>
+                <div class="text-center">
+                  <a
+                    href="https://www.surveymonkey.com/r/syhr_plans"
+                    class="btn btn-block btn-primary text-uppercase"
+                    target="_blank"
+                    >See if this fits your business!</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Uni Tier -->
+          <div class="col-lg-4">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title text-muted text-uppercase text-center">
+                  UNICORN
+                </h5>
+                <h6 class="card-price text-center display-4">
+                  $10,000<span class="period">/month</span>
+                </h6>
+                <h5 class="card-title text-muted text-uppercase text-center">
+                  UNLIMITED
+                </h5>
+                <hr />
+                <ul class="fa-ul">
+                  <li>
+                    <span class="fa-li"><i class="fas fa-check"></i></span
+                    >Recruiting
+                  </li>
+                  <li>
+                    <span class="fa-li"><i class="fas fa-check"></i></span>Job
+                    Descriptions
+                  </li>
+                  <li>
+                    <span class="fa-li"><i class="fas fa-check"></i></span
+                    >Process Hacking
+                  </li>
+                  <li>
+                    <span class="fa-li"><i class="fas fa-check"></i></span
+                    >Accountability Chart
+                  </li>
+                  <li>
+                    <span class="fa-li"><i class="fas fa-check"></i></span
+                    >Employee Onboarding
+                  </li>
+                  <li>
+                    <span class="fa-li"><i class="fas fa-check"></i></span
+                    >Employee Matters
+                  </li>
+                  <li>
+                    <span class="fa-li"><i class="fas fa-check"></i></span
+                    >Compensation Support
+                  </li>
+                  <li>
+                    <span class="fa-li"><i class="fas fa-check"></i></span>SOP
+                    Manual/Handbook
+                  </li>
+                  <li>
+                    <span class="fa-li"><i class="fas fa-check"></i></span
+                    >Intern Program Launch
+                  </li>
+                  <li>
+                    <span class="fa-li"><i class="fas fa-check"></i></span
+                    >People Operations
+                  </li>
+                  <li>
+                    <span class="fa-li"><i class="fas fa-check"></i></span>3
+                    Year Scaling Plan
+                  </li>
+                  <li>
+                    <span class="fa-li"><i class="fas fa-check"></i></span>EOS
+                    People Component
+                  </li>
+                  <li>
+                    <span class="fa-li"><i class="fas fa-check"></i></span
+                    >Training & Development
+                  </li>
+                </ul>
+                <div class="text-center">
+                  <a
+                    href="https://www.surveymonkey.com/r/syhr_plans"
+                    class="btn btn-block btn-primary text-uppercase"
+                    target="_blank"
+                    >See if this fits your business!</a
+                  >
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </section>
-      <section class="contact pb-5">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-1">
+        <!-- On Demand Consultation Tier -->
+        <div class="row pt-3 pb-5">
+          <div class="col">
+            <div id="consult-card" class="card">
+              <div class="card-body">
+                <h5 class="card-title text-muted text-uppercase text-center">
+                  On Demand Consultation
+                </h5>
+                <h6 class="card-price text-center display-4">Always Free!</h6>
+                <!-- <h5 class="card-title text-muted text-uppercase text-center">UNLIMITED</h5> -->
+                <hr />
 
-            </div>
-            <div class="col-lg-4 mb-3 mb-lg-0">
-              <div class="contact-card p-3">
-                <h1 class="display-6">
-                  <a href="tel:615-400-2043"><i class="fas fa-mobile-alt"></i> 615-400-2043</a></h1>
+                <p><i class="fas fa-check"></i> 1 Hour Advising</p>
+                <a
+                  href="mailto: katiepsyhr@gmail.com"
+                  class="btn btn-block btn-info text-uppercase"
+                  target="_blank"
+                  >Schedule Consultation Now!</a
+                >
               </div>
-            </div>
-            <div class="col-lg-6 mb-3 mb-lg-0">
-              <div class="contact-card p-3">
-                <h1 class="display-6">
-                  <a href="mailto: katiepsyhr@gmail.com" target="_blank"><i class="fas fa-envelope"></i> katiepsyhr@gmail.com</a></h1>
-              </div>
-            </div>
-            <div class="col-lg-1">
-
             </div>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
+    <section class="contact pb-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-1"></div>
+          <div class="col-lg-4 mb-3 mb-lg-0">
+            <div class="contact-card p-3">
+              <h1 class="display-6">
+                <a href="tel:615-400-2043"
+                  ><i class="fas fa-mobile-alt"></i> 615-400-2043</a
+                >
+              </h1>
+            </div>
+          </div>
+          <div class="col-lg-6 mb-3 mb-lg-0">
+            <div class="contact-card p-3">
+              <h1 class="display-6">
+                <a href="mailto: katiepsyhr@gmail.com" target="_blank"
+                  ><i class="fas fa-envelope"></i> katiepsyhr@gmail.com</a
+                >
+              </h1>
+            </div>
+          </div>
+          <div class="col-lg-1"></div>
+        </div>
+      </div>
+    </section>
 
-
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
-</body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
